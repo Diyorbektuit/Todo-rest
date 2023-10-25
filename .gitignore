@@ -10,7 +10,7 @@ db.sqlite3
 # Ignore the virtual environment folder (if you use one)
 venv/
 env/
-
+.env
 
 # Ignore user-uploaded media files
 media/
