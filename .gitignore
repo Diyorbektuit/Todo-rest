@@ -1,0 +1,42 @@
+ # Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the database file
+db.sqlite3
+
+# Ignore the virtual environment folder (if you use one)
+venv/
+env/
+
+
+# Ignore user-uploaded media files
+media/
+
+# Ignore static files collected by "collectstatic"
+staticfiles/
+
+# Ignore logs and error reports
+*.log
+logs/
+*.log*
+
+# Ignore local settings file
+local_settings.py
+
+# Ignore secret keys and sensitive information
+*.secret
+
+# Ignore compiled .mo files for translations
+locale/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore system files created by Windows
+Thumbs.db
+
+# Ignore the .idea directory (if you use PyCharm)
+.idea/
